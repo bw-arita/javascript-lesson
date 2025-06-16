@@ -72,7 +72,9 @@ return x % y;
 };
 let result = remainder(5 ,3);
 console.log("5 を 3 で割った余りは" + result + "です。");
+
 "変数であるXはスコープ内である関数fooの中でのみ使えるが、関数の外からxを参照しようとしているため、エラーが出力される。"
+
 let randomNumber = Math.floor(Math.random() * 10);
 console.log(randomNumber);
 setTimeout(() => {
