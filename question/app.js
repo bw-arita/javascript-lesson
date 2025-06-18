@@ -39,7 +39,7 @@ console.log(playerList[1].favorites[1]);
 
 //Q5
 console.log(
-  (playerList[0].age + playerList[1].age + playerList[2].age)/3
+  (playerList[0].age + playerList[1].age + playerList[2].age)/playerList.length
 );
 
 //Q6 
@@ -111,9 +111,9 @@ printName("有田", addIntro)
 
 //Q3
 let num = 14
-if(num>0){
+if(num > 0){
 console.log("num is greater than 0");  
-}else if (num<0){
+}else if (num < 0){
 console.log("num is less than 0")
 }else{
 console.log("num is 0")
